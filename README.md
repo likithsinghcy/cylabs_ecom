@@ -19,7 +19,10 @@ There will be a dashboard different for all the differnt type of users and admin
 
     1. He will be able to view all the categories through a slider/carousel. 
     2. He will be able to add things to carts.
-    3. He will be able to 
+    3. He will be able to create wishlists
+    4. Make payments on various platforms
+    5. Track his orders in real time
+    6. **order products within his area** 
 
 **The merchants/stores will have the following capabilities in theier portal or dashboard:** 
 
