@@ -1,6 +1,6 @@
 # CyberLabs_Ecom_APP
 
-This is a web/mobile portal for a general purpose e-commerce website with a focused effort to boost the local stores and merchadise based on the users location
+This is a web/mobile portal cum application for a general purpose e-commerce website with a focused effort to boost the local stores and merchadise based on the users location
 
 This application will show suggestions to the costumers based on the location of the customer and the application will optimize his search with the nearby store results with respect to the distance of within a certain radius of the costumer. 
 
