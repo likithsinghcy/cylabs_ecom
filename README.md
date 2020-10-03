@@ -35,7 +35,14 @@ There will be a dashboard different for all the differnt type of users and admin
 
     1. He will be able to see the active and all the deliverees assigned to him
     2. He will be able to see all the information of his and payments for the 
+    
+## In phase 1 of the development we need to create th following things here
 
+   **Phase 1 Data goals**
+   1. Complete a view for Home page.
+   2. Complete a view for Login/register page.
+   3. complete a view for product page.
+   
 
 
 
