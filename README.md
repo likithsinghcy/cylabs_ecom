@@ -37,6 +37,7 @@ There will be a dashboard different for all the differnt type of users and admin
     2. He will be able to see all the information of his and payments for the 
     
 **The busness end and sharing is done by the following way** 
+
     1. The product selling price to the costumer will be shared in 3:97 percent to the company : merchant. 
     2. The delivery partner will recieve a 1/3rd of the company's share of the selling price
     
