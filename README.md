@@ -44,7 +44,8 @@ There will be a dashboard different for all the differnt type of users and admin
     1. The product selling price to the costumer will be shared in 3:97 percent to the company : merchant. 
     2. The delivery partner will recieve a 1/3rd of the company's share of the selling price
 
-**THe categories which we are dealing in are**    
+**THe categories which we are dealing in are**
+    
     1. Local Kirana stores
     2. Farmers Market
     3. Groceries
@@ -59,7 +60,7 @@ There will be a dashboard different for all the differnt type of users and admin
     13. Sodas
     14. Automation tools
     15. Industrial and automobile spare parts
-    
+
 ## In phase 1 of the development we need to create th following things here
 
    **Phase 1 Data goals**
