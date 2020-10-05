@@ -20,3 +20,5 @@
 ### Category screen version 1
 ![Category](https://github.com/likithsinghcy/cylabs_ecom/blob/main/UI-screens/store_category.jpeg?raw=true)
 
+## Next step for tomorrow: 
+ TO add new screens for the website and also add IOS screens 
