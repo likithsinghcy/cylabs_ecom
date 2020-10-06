@@ -1,5 +1,10 @@
 # Here are the screens for the UI of the project
 
+
+### Mobile_working screen version 1
+![mobile](https://github.com/likithsinghcy/cylabs_ecom/blob/main/UI-screens/mobile.png?raw=true)
+
+
 ### Home screen version 1
 ![Home](https://github.com/likithsinghcy/cylabs_ecom/blob/main/UI-screens/home.jpeg?raw=true)
 
