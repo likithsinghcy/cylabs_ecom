@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./assets/javascript/main.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link href="assets/css/styles.css" rel="stylesheet"></link>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script>
+        <script src="https://use.fontawesome.com/826a7e3dce.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    </head>
+
+    <body id="top" class="">
+        
+      <header>
+        <nav class=" navbar navbar-default navbar-fixed-top" style="height:80px">
+          <div class="container-fluid">
+            <!--brand, search-->
+            <div class="row" style=" background-color: #2874f0;">
+              <div class=" navbar-header">
+                <button type="button" data-toggle="collapse" data-target="#bar" class="navbar-toggle">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    </button>
+              </div>
+              <a class=" navbar-brand" href="#">
+                <img src="./assets/images/logo.png" style="padding-left: 24%;  padding-bottom: 15px; width: 145px; height: 45px;">
+              </a>
+    
+              <div class="hidden-xs search pull-left input-group" style="width: 60%; right: -4%; margin-top: 8px;">
+                <!--All button-->
+    
+                <div class="input-group-btn search-panel">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                            <span id="search-content">All </span>
+                                            <span class="caret"></span>
+                                         </button>
+    
+                  <ul class=" dropdown-menu" role="menu">
+                    <li><a href="#all">All Categories</a></li>
+                    <li><a href="#x">X</a></li>
+                    <li><a href="#y">Y</a></li>
+                    <li><a href="#z">Z</a></li>
+                    <li><a href="#a">A</a></li>
+                  </ul>
+    
+                </div>
+                <input type="hidden" value="all">
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-btn">
+                 <button type="button" class="sub btn btn-default">             <span class=" glyphicon glyphicon-search"></span>
+    
+                </button>
+                </span>
+
+                
+              </div>
+              <div class="nav navbar-nav navbar-right" style="position: absolute; right: 5%; bottom: 58%;">
+                <li class="">
+    
+                 <!--<div class="dropdown show">
+                    <button class="hidden-xs dropbtn dropdown-toggle" data- toggle="dropdown">
+                                                        <span class="grey"></span>
+                                                        <div>
+                                                        <span class="white bold"> Sign in</span>
+                                                        <span class="white caret"></span>
+                                                        </div>
+                                                    </button>
+    
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                    <!--hamburger
+                    <div class="visible-xs container">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h5 class="center  panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                            Hello, Sign In,Your Orders</a>
+                          </h5>
+                        </div>
+    
+                        <div id="collapse2" class="panel-collapse collapse ">
+                          <div class="center panel-body">
+                            <ul class="list-group">
+                              <li class="list-group-item">Link 1</li>
+                              <li class="list-group-item">Link 2</li>
+                              <li class="list-group-item">Link 3</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--hamburger end
+                  </div>-->
+                </li>
+               
+
+                <li class="hidden-xs">
+                  <a href="#cart">
+                    <div>
+                      <span class="bold white glyphicon glyphicon-user"></span>
+                      <span class="white bold">User</span>
+                    </div>
+                  </a>
+                </li>
+              
+                  <li class="hidden-xs">
+                    <a href="#cart">
+                      <div>
+                        <span class="bold white glyphicon glyphicon-heart"></span>
+                        <span class="white bold">Wishlist</span>
+                      </div>
+                    </a>
+                  </li>
+    
+                <li class="hidden-xs">
+                  <a href="#cart">
+                    <div>
+                      <span class="bold white glyphicon glyphicon-shopping-cart"></span>
+                      <span class="white bold">Cart</span>
+                    </div>
+                  </a>
+                </li>
+    
+              </div>
+              <div class="visible-xs small">
+                <a href=#search><span data-toggle="tooltip" data-placement="bottom" title="Search" class="rt white glyphicon glyphicon-search"></span></a>
+                <a href=#address><span data-toggle="tooltip" data-placement="bottom" title="Address" class="rt white glyphicon glyphicon-map-marker"></span></a>
+                <a href=#cart><span data-toggle="tooltip" data-placement="bottom" title="Cart" class="rt white glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+              <div class="loo visible-xs">
+                <a href="#section3"><span class="grey rtt text">Your XYZ.in</span></a>
+                <a href="#section4"><span class="grey rtt text">Today's Deals</span></a>
+              </div>
+            </div>
+          </div>
+            <div class="row2">
+            <div class="row" style="background-color: #232f3e;; height: 45px; ">
+            <div class="navbar-collapse collapse" id="bar">
+              <ul class="nav navbar-nav navbar-left" style="padding-left: 2%;">
+    
+                <li class="hidden-xs deli" style="margin-top: -12%;">
+    
+                  <a href="#address"> <span class=" white glyphicon glyphicon-map-marker"></span>
+                <span class="grey">Location</span>
+                 <div class="white bold"></div></a>
+    
+                </li>
+    
+
+                <ul class="nav navbar-nav navbar-center" style="position: absolute; right: -1%;top: 50%;">
+                  <li class="hidden-xs">
+                    <a href="#section3">
+                            <span class="grey text " style="font: 14px;">Home</span>
+                         </a>
+                  </li>
+                  <li class="hidden-xs">
+                    <a href="#section4">
+                              <span class="grey text">Shop</span>
+                        </a>
+                  </li>
+                  <li class="hidden-xs">
+                    <a href="#section4">
+                              <span class="grey text">Best Sellers</span>
+                        </a>
+                  </li>
+                  <li class="hidden-xs">
+                    <a href="#section4">
+                              <span class="grey text">Deal Of The Day</span>
+                        </a>
+                  </li>
+                  <li class="hidden-xs">
+                    <a href="#section4">
+                              <span class="grey text">Contact Us</span>
+                        </a>
+                  </li>
+                </ul>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+          
+        </nav>
+
+
+      </header>
+      <!--Carousel-->
+      <div id="myCarousel" class="carousel1 carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item pic active">
+            <img src="./assets/images/eletronic.jpg" alt="">
+          </div>
+          <div class="item pic">
+            <img src="./assets/images/grocery.jpg" alt="">
+          </div>
+          <div class="item pic">
+            <img src="./assets/images/seafood.jpg" alt="">
+          </div>
+        </div>
+       <!--- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class=" glyphicon glyphicon-chevron-right"></span>
+                 </a> -->
+      </div>
+<div class="wrap">
+      <style>
+        .carousel-wrap {
+
+padding: 0;
+width: 95%;
+position: relative;
+padding-top:10px;
+padding-bottom: 0px;
+
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+position: relative;
+z-index: 0; 
+-webkit-backface-visibility: hidden; 
+height: 90px;
+width:90px;
+}
+
+/* end fix */
+.owl-nav > div {
+margin-top: 0px;
+position: absolute;
+top:50%
+color: #cdcbcd;
+}
+
+.owl-nav i {
+font-size: 25px;
+}
+
+.owl-nav .owl-prev {
+left: -3%;
+top:55%;
+}
+
+.owl-nav .owl-next {
+right: -30px;
+top:55%;
+}
+.item img{
+border-radius:;
+}
+
+.item:hover {
+    transform: scale(1.1);
+ 
+    transition: all 0.5s linear;
+}
+.item {
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+    margin:5px;
+    }
+    .child {
+    width: 75%;
+    height:75%;
+    
+}
+.heading__content {
+    position: absolute;
+    right: -68;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    width: 120px;
+}
+.local a h3{
+  position: absolute;
+}
+
+    </style>
+    <div class="carousel-wrap" style="padding-top:12%;">
+      <h3 class="wrap1">Our Special Products</h3>
+        <div class="owl-carousel" style="left:4%">
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic1.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic2.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic3.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic4.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic5.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic6.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic7.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic8.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic9.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic10.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic10.jpg"></div>
+          <div class="item" style="border-radius: 50%;"><img src="./assets/images/pic1.jpg"></div>
+        </div>
+      </div>
+      <script>
+          $('.owl-carousel').owlCarousel({
+loop: true,
+margin: 10,
+nav: true,
+navText: [
+"<i class='fa fa-caret-left'></i>",
+"<i class='fa fa-caret-right'></i>"
+],
+autoplay: true,
+autoplayHoverPause: true,
+responsive: {
+0: {
+items: 1
+},
+600: {
+items: 3
+},
+1000: {
+items: 6
+},
+1000:{
+items: 10
+}
+}
+})
+      </script>
+<!--Product-->
+<style>
+img { max-width:100%; }
+
+a {
+    -webkit-transition: all 150ms ease;
+	-moz-transition: all 150ms ease;
+	-ms-transition: all 150ms ease;
+	-o-transition: all 150ms ease;
+	transition: all 150ms ease; 
+	}
+    
+a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50); /* IE7 */
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+
+
+
+
+.thumbnails li> .fff .caption { 
+    background:#fff !important; 
+    padding:10px
+}
+
+/* Page Header */
+
+
+
+
+/* Thumbnail Box */
+.caption h4 {
+    color: #444;
+}
+
+.caption p {  
+    color: #999;
+}
+
+
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+.carousel-control{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+        text-align: center;
+    } 
+}
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+
+
+li { list-style-type:none;}
+
+
+</style>
+
+        <div class="container">
+            <div class="col-xs-12">
+            
+                
+                    
+                <div class="carousel slide" id="myCarousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                                <ul class="thumbnails">
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                          </div><!-- /Slide1 --> 
+                        <div class="item">
+                                <ul class="thumbnails">
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                          </div><!-- /Slide2 --> 
+                        <div class="item">
+                                <ul class="thumbnails">
+                                    <li class="col-sm-3">	
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <div class="fff">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                            <div class="caption">
+                                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                          </div><!-- /Slide3 --> 
+                    </div>
+                    
+                   
+                   <nav>
+                        <ul class="control-box pager">
+                            <li><a data-slide="prev" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+                            <li><a data-slide="next" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></li>
+                        </ul>
+                    </nav>
+                   <!-- /.control-box -->   
+                                          
+                </div><!-- /#myCarousel -->
+                    
+            </div><!-- /.col-xs-12 -->          
+            
+            </div><!-- /.container -->
+<script>
+    // Carousel Auto-Cycle
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 6000
+    })
+  });
+
+</script>
+
+<!--Deal Of The Day-->
+      </div>
+
+
+
+      <style>
+        .carousel-wrapped {
+margin: 2px auto;
+padding: 0 5%;
+width: 100%;
+position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+position: relative;
+z-index: 100; 
+-webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+margin-top: -26px;
+position: absolute;
+top: 50%;
+color: #cdcbcd;
+}
+
+.owl-nav i {
+font-size: 35px;
+color: #333;
+}
+
+.owl-nav .owl-prev {
+left: -35px;
+}
+
+.owl-nav .owl-next {
+right: -8px;
+}
+
+
+
+ 
+
+.heading__content h3 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+    </style>
+
+    <div class="carousel-wrapped" style="padding-top: 10px; padding-bottom: 10px;">
+      <h3 class="wrap1">Deal Of The Day</h3>
+        <div class="owl-carousel" style="left: 3%;">
+          <div class="items" style="width: 150px;"><img class="child" src="./assets/images/pic1.jpg">
+            <!--<div class="heading__content" style="">
+              <h3><a class="local" style="font: 10px; color: #333;" href="#">Shop</a></h3>
+            </div>!-->
+          </div>
+
+          <div class="itemed" style="width: 150px;"><img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+          <div class="itemed" style="width: 150px;"> <img class="child" src="./assets/images/pic1.jpg"></div>
+        </div>
+      </div>
+      <script>
+          $('.owl-carousel').owlCarousel({
+loop: true,
+margin: 10,
+nav: true,
+navText: [
+"<i class='fa fa-caret-left'></i>",
+"<i class='fa fa-caret-right'></i>"
+],
+autoplay: true,
+autoplayHoverPause: true,
+responsive: {
+0: {
+  items: 1
+},
+600: {
+  items: 3
+},
+1000: {
+  items: 5
+}
+}
+})
+      </script>
+
+
+        <!--footer-->
+        <footer class="footer">
+          
+          <div class="container-fluid" style=" background-image:url('./assets/images/footer.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;">
+            <div class="container" style="padding-top: 5%;">
+              <div class="row">
+                <div class="col-sm-3">
+                  <a class="white" href="#">
+                    <img src="./assets/images/logo.png" style="padding-left: 24%;">
+                    </a>
+                  <div class="gap">
+                    <a class="grey foot" href="#"></a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#"></a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#"></a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#"></a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#"></a>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <h4 class="white">Help</h4>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Search</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Help</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Information</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Privacy Policy</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Shipping Inforamtion</a>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <h4 class="white">Support</h4>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Contact</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">About Us</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Carears</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Return And Returns</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Deliveries</a>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <h4 class="white">Information</h4>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Serach Terms</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Advance Search</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Help & Faqs</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Store Location</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#">Orders And Retuens</a>
+                  </div>
+                  <div class="gap">
+                    <a class="grey foot" href="#"></a>
+                  </div>
+                </div>
+              </div>
+              <hr style="border-color: #37475A">
+
+            </div>
+    
+          </div>
+        </footer>
+    
+    </body>
+
+</html>

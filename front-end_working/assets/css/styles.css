@@ -1,0 +1,331 @@
+                  /*navbar*/
+                  
+
+                  .margin{
+                    margin-bottom:3em;
+                  }
+                  #head {
+                    margin-top: 0em;
+                    padding-left: 0.5em;
+                    color: white;
+                    font-size: 2em;
+                    line-height: 0.5em;
+                  }
+
+                  .navbar-default {
+                    background-color: ;
+                    border-color: ;
+                }
+                .navbar-default .navbar-nav>li>a {
+                  color: #777;
+                  margin-bottom: -20px;
+              }
+                  .container-fluid {
+                   
+                  }
+                  button.sub {
+                    background-color: #fff;
+                  }
+                  button.sub:hover {
+                    background-color: #2874f0;
+                  }
+                  .search {
+                    margin-top: 1em;
+                    padding-left: 1em;
+                    width: 30%;
+                  }
+                  .white {
+                    color: white;
+                  }
+                  .grey {
+                    color:#fff;
+                    font-weight: bold;
+                    font-size: 14px;
+                  }
+                  .grey1{
+                    font: 14px;
+                  }
+                  .bold {
+                    font-weight: bold;
+                  }
+                  .dropbtn {
+                    background-color: #2874f0;
+                    color: white;
+                    padding: 5px;
+                    font-size: 1em;
+                    border: none;
+                  }
+                  
+                  .dropdown {
+                    position: relative;
+                    display: inline-block;
+                  }
+                  
+                  .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: white;
+                    min-width: 100px;
+                  }
+                  .dropdown-content a {
+                    color: black;
+                    padding: 8px 16px;
+                    text-decoration: none;
+                    display: block;
+                  }
+                  .dropdown:hover .dropdown-content {
+                    display: block;
+                  }
+                  .dropdown-content a:hover {
+                    color: darkorange;
+                    text-decoration: none;
+                  }
+                  .text:hover {
+                    text-decoration: underline;
+                  }
+                  ul > li {
+                    padding-top: 0.5em;
+                    padding-left: 0.5em;
+                  }
+                  .navbar-center {
+                    position: absolute;
+                    left: 50%;
+                    transform: translatex(-70%);
+                  }
+                  @media (max-width: 768px) {
+                    .dropdown:hover .dropdown-content {
+                      display: none;
+                    }
+                    #head {
+                      position: fixed;
+                      top: 0.5em;
+                    }
+                  }
+                  .rt {
+                    padding-right: 1.5em;
+                    font-size: 1.8em;
+                  }
+                  .small {
+                    position: absolute;
+                    right: 6em;
+                    top: 1em;
+                  }
+                  .loo {
+                    position: absolute;
+                    top: 4em;
+                    right: 4.5em;
+                  }
+                  .rtt {
+                    padding-right: 0.5em;
+                  }
+                  .center {
+                    text-align: center;
+                    color: black;
+                  }
+                   /*carousel*/
+                                  .carousel1 {
+                                      margin-top:;
+                                      max-height: 300px;
+                                      }
+                                  .carousel1 .pic {
+                                      height: 500px;
+                                  }
+                                  .pic img {
+                                      min-height: 300px;
+                                      width: 100%;
+                                  }
+                                  ol > li {
+                                      visibility:hidden;
+                                  }
+                                  @media  (max-width:767px){
+                                      .carousel1{
+                                          margin-top:7em;
+                                          max-height: 300px;
+                                      }
+                                  }
+                  
+                                 @media(min-width:637px) and (max-              width:767px){
+                                      .nail-img {
+                                          width: 100%;
+                                          height: 300px;
+                                      }             
+                                  } 
+                   .side {  
+                     
+                                      padding-top: 1em;
+                                  }
+                                                  
+                  
+                  .clock{
+                                      padding-top: 2em;
+                                  }
+                  
+                  /*footer*/
+                   .bot{
+                                      background-color: #37475A;
+                                      margin-top: 2em;
+                                      text-align: center;
+                                      height: 45px;
+                                  }
+                                  .bot:hover{
+                                      background-color: #485769;
+                                  }
+                                  .bot a:hover{
+                                      
+                                      color: white;
+                                      text-decoration: none;
+                                  }
+                                  .less {
+                                      font-size: 1em;
+                                  }
+                                  .foot {
+                                      font-size: 0.95em;
+                                  }
+                                  .foot:hover{
+                                      color:#ccc;
+                                  }
+                                  .gap{
+                                      margin-top: 20px;
+                                  }
+                                .end{
+                                      text-align: center;
+                                  }
+                                  .pop{
+                                      font-size: 0.8em;
+                                      
+       
+                                  /* Our Products*/
+       
+       
+       
+                                      .carousel-wrap {
+                                        margin:  auto;
+                                        padding: 0;
+                                        width: 80%;
+                                        position: relative;
+                                        padding-top:10px;
+                                        padding-bottom: 0px;
+                                        
+                                        }
+                                        
+                                        /* fix blank or flashing items on carousel */
+                                        .owl-carousel .item {
+                                        position: relative;
+                                        z-index: 0; 
+                                        -webkit-backface-visibility: hidden; 
+                                        height: 90px;
+                                        width:90px;
+                                        }
+                                        
+                                        /* end fix */
+                                        .owl-nav > div {
+                                        margin-top: 0px;
+                                        position: absolute;
+                                        top:50%
+                                        color: #cdcbcd;
+                                        }
+                                        
+                                        .owl-nav i {
+                                        font-size: 25px;
+                                        }
+                                        
+                                        .owl-nav .owl-prev {
+                                        left: -3%;
+                                        top:36%;
+                                        }
+                                        
+                                        .owl-nav .owl-next {
+                                        right: -30px;
+                                        top:35%;
+                                        }
+                                        .item img{
+                                        border-radius:50%;
+                                        }
+       
+       
+                                    }
+.wrap1{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+
+/* Our Special Products */
+<style>
+.carousel-wrap {
+
+padding: 0;
+width: 95%;
+position: relative;
+padding-top:10px;
+padding-bottom: 0px;
+
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+position: relative;
+z-index: 0; 
+-webkit-backface-visibility: hidden; 
+height: 90px;
+width:90px;
+}
+
+/* end fix */
+.owl-nav > div {
+margin-top: 0px;
+position: absolute;
+top:50%
+color: #cdcbcd;
+}
+
+.owl-nav i {
+font-size: 25px;
+}
+
+.owl-nav .owl-prev {
+left: -3%;
+top:55%;
+}
+
+.owl-nav .owl-next {
+right: -30px;
+top:55%;
+}
+.item img{
+border-radius:;
+}
+
+.item:hover {
+transform: scale(1.1);
+
+transition: all 0.5s linear;
+}
+.item {
+position: relative;
+margin-top: 0;
+text-align: center;
+margin:5px;
+}
+.child {
+width: 75%;
+height:75%;
+
+}
+.heading__content {
+position: absolute;
+right: -68;
+left: 50%;
+top: 45%;
+transform: translate(-50%,-50%);
+width: 120px;
+}
+.local a h3{
+position: absolute;
+}
+
+</style>
+
