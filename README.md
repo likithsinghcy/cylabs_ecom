@@ -51,6 +51,7 @@ There will be a dashboard different for all the differnt type of users and admin
     3. Groceries
     4. Breads
     5. Drug store 
+    6. Meat stores
     7. Pickles 
     8. Sweets
     9. Spice Mart
